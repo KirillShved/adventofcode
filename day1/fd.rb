@@ -35,29 +35,29 @@ class Test
 
   def make_step(direction, step_length)
     if see == NORTH && direction == 'L' # North
-      self.x -= step_length
-      self.see = WEST
+      @x -= step_length
+      @see = WEST
     elsif see == NORTH && direction == 'R'
-      self.x += step_length
-      self.see = EAST
+      @x += step_length
+      @see = EAST
     elsif see == WEST && direction == 'L' # West
-      self.y -= step_length
-      self.see = SOUTH
+      @y -= step_length
+      @see = SOUTH
     elsif see == WEST && direction == 'R'
-      self.y += step_length
-      self.see = NORTH
+      @y += step_length
+      @see = NORTH
     elsif see == SOUTH && direction == 'L' # South
-      self.x += step_length
-      self.see = EAST
+      @x += step_length
+      @see = EAST
     elsif see == SOUTH && direction == 'R'
-      self.x -= step_length
-      self.see = WEST
+      @x -= step_length
+      @see = WEST
     elsif see == EAST && direction == 'L' # East
-      self.y += step_length
-      self.see = NORTH
+      @y += step_length
+      @see = NORTH
     elsif see == EAST && direction == 'R'
-      self.y -= step_length
-      self.see = SOUTH
+      @y -= step_length
+      @see = SOUTH
     end
   end
 end
