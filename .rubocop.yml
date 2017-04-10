@@ -1,0 +1,15 @@
+# Disable all checks not explicitly referenced in this file
+# This is used to easily disable Style/* checks
+require: rubocop-performance
+
+AllCops:
+  UseCache: true
+  DisabledByDefault: false
+  TargetRubyVersion: 2.4.3
+
+# ================================  Overridden  ================================
+Metrics/LineLength:
+  Description: 'Limit lines to 80 characters.'
+  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#80-character-limits'
+  Enabled: false
+  Max: 120
