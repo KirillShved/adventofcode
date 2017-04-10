@@ -30,7 +30,7 @@ class Test
       step_length = step[1..-1].to_i
       make_step(direction, step_length)
     end
-    puts x, y, see
+    puts "Result: #{x.abs + y.abs} steps."
   end
 
   def make_step(direction, step_length)
