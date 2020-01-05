@@ -68,7 +68,7 @@ Finished solutions for: [Advent of Code][advent_of_code]
 
 | Day | Name                                           | Ruby                                                      |
 |:---:|:-----------------------------------------------|:---------------------------------------------------------:|
-| 01  | [No Time for a Taxicab][2016_day1]             | [Solution](lib/advent_of_code/year_2016/day1/solution.rb) |
+| 01  | [No Time for a Taxicab][2016_day1]             | [Solution](lib/year_2016/day1/solution.rb) |
 
 [2016_day1]: http://adventofcode.com/2016/day/1
 [2016_day2]: http://adventofcode.com/2016/day/2
