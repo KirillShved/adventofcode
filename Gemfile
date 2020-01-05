@@ -2,8 +2,10 @@
 
 source 'https://rubygems.org'
 
-gem 'awesome_print'
-gem 'pry-byebug'
-gem 'rspec'
-gem 'rubocop'
-gem 'rubocop-performance'
+group :development, :test do
+  gem 'awesome_print'
+  gem 'pry-byebug'
+  gem 'rspec'
+  gem 'rubocop'
+  gem 'rubocop-performance'
+end
